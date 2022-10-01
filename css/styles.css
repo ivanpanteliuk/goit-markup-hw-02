@@ -1,0 +1,85 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --logo-color: #000;
+  --hero-footer-background-color: #2f303a;
+  --main-background-color: #f5f5f5;
+  --our-team-section-background: #f5f4fa;
+  --primary-white-color: #fff;
+}
+body {
+  background-color: var(--main-background-color);
+  color: var(--primary-text-color);
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* List styles */
+
+.list {
+  list-style: none;
+}
+
+/* Link styles */
+
+.link {
+  text-decoration: none;
+}
+
+/* Logo styles */
+
+.logo-1 {
+  color: var(--accent-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.5px;
+  line-height: 1.2;
+}
+
+.logo-2 {
+  color: var(--logo-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.5px;
+  line-height: 1.2;
+}
+
+/* Site nav */
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.3px;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Contacts nav  */
+
+.contacts-nav .contact-link {
+  color: var(--primary-text-color);
+}
+
+.contacts-nav .contact-link:hover,
+.contacts-nav .contact-link:focus {
+  color: var(--accent-color);
+}
+
+.contacts-nav {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.3px;
+}
+
+/* Hero styles */
